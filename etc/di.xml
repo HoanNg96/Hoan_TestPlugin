@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="\Hoan\TestPlugin\Block\Index">
+        <plugin name="pluginGetDetail" type="\Hoan\TestPlugin\Plugin\testPlugin" sortOrder="10" disabled="false" />
+    </type>
+
+    <type name="\Hoan\TestPlugin\Block\Index">
+        <plugin name="pluginGetDetail2" type="\Hoan\TestPlugin\Plugin\testPlugin2" sortOrder="20" disabled="false" />
+    </type>
+
+    <type name="\Hoan\TestPlugin\Block\Index">
+        <plugin name="pluginGetDetail3" type="\Hoan\TestPlugin\Plugin\testPlugin3" sortOrder="30" disabled="false" />
+    </type>
+</config>
